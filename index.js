@@ -6,7 +6,8 @@ const OpenAI = require('openai');
 //import OpenAI from 'openai';
 
 const openai = new OpenAI({
-  apiKey: "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", // This is also the default, can be omitted
+  //apiKey: "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", // This is also the default, can be omitted
+  apiKey: "Your_API_KEY", 
 });
 
 //server setup
