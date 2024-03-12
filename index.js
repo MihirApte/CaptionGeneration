@@ -3,10 +3,9 @@ const cors = require("cors");
 const bodyParser = require("body-parser");
 const OpenAI = require('openai');
 
-//import OpenAI from 'openai';
 
-const openai = new OpenAI({
-  //apiKey: "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", // This is also the default, can be omitted
+
+const openai = new OpenAI({ 
   apiKey: "Your_API_KEY", 
 });
 
